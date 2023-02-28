@@ -12,8 +12,9 @@ int _strlen(char *str)
 	 int longy = 0;
 
 	while (*s != '\0')
+	{
 		longy++;
 		s++;
-
+	}
 	return (longy);
 }
